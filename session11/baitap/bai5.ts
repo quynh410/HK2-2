@@ -28,3 +28,5 @@ const department = new Department(1, "HR");
 console.log(department.id); 
 // department.id = 2; // Lỗi
 department.describe();
+
+// em chưa sửa được bài này  ạ :((
