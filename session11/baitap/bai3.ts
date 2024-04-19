@@ -1,7 +1,7 @@
 class Employee {
     name: string;
-    companys: string;
-    phones: string;
+    protected companys: string;
+    private phones: string;
     constructor(name:string, companyss:string, phone:string) {
     this.name = name; // public
         this.companys = companyss; // protected

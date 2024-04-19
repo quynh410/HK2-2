@@ -1,8 +1,8 @@
 class Vehicle {
     name2 : string;
     year2 : number;
-    company2 : string;
-    id2 : number;
+    protected company2 : string;
+    private id2 : number;
     constructor(name2:string, year2:number, company2:string, id2:number) {
         this.name2 = name2; // public
         this.year2 = year2; // protected
